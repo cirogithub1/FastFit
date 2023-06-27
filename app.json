@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "FastFit",
-    "slug": "FastFit",
+    "slug": "fastfit",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,23 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.cirus_dev.fastfit"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4c50f5de-4d0a-46e1-8c19-435064512f44"
+      }
+    },
+    "owner": "cirus_dev",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4c50f5de-4d0a-46e1-8c19-435064512f44"
     }
   }
 }
