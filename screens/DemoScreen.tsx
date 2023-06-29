@@ -23,7 +23,7 @@ const DemoScreen = () => {
 				onPress={() => navigation.navigate("Home")}>
 					<Ionicons name='arrow-back' size={40} color='white' />
 
-				<Text className='text-white'>Go back</Text>
+				<Text className='text-white'>Go backy</Text>
 			</TouchableOpacity>
 			
 			<View className='flex-1 items-center justify-center px-10'>

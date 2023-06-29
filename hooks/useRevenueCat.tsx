@@ -30,7 +30,7 @@ function useRevenueCat() {
 			await Purchases.setDebugLogsEnabled(true)
 
 			if (Platform.OS == "android") {
-				await Purchases.configure({apiKey: APIKeys.stripe})
+				Purchases.configure({apiKey: APIKeys.stripe})
 			}
 
 			const offerings = await Purchases.getOfferings()
