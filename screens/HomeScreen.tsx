@@ -12,8 +12,7 @@ import useRevenueCat from '../hooks/useRevenueCat'
 
 export type NavigationProps = NativeStackNavigationProp<
 	RootStackParamList, 
-	"Home"
-> 
+	"Home"> 
 
 const orange_600 = "#EA580C"
 const blue_400 = "#60A5FA"
